@@ -502,6 +502,59 @@ strong {
   position: relative;
 }
 
+/* Leadership container */
+.leadership-cont {
+  display: flex; /* Makes the wrapper a flex container */
+  text-align: center;
+  justify-content: center; /* Centers the cards horizontally */
+  align-items: flex-start; /* Aligns cards at the top */
+  gap: 20px; /* Adds space between cards */
+  width: 100%; /* Ensures the wrapper spans full width */
+  flex-wrap: wrap; /* Allows the cards to wrap if necessary (e.g., on smaller screens) */
+}
+
+/* Leadership cards */
+.leadership-card {
+  display: flex; /* Keeps the card as a flex item */
+  flex-direction: column; /* Keeps content inside each card in a column */
+  align-items: center; /* Centers content horizontally inside the card */
+  text-align: center; /* Centers text inside the card */
+  background: var(--white-color);
+  border-radius: var(--border-radius-large);
+  padding: 20px;
+  margin: 10px; /* Adds spacing between cards */
+  flex: 1 1 200px; /* Allow cards to grow and shrink, with a minimum width of 200px */
+  max-width: 400px; /* Prevents cards from growing too large */
+}
+
+
+
+
+.leadership-heading {
+  text-align: center;
+  color: var(--tetrary-color);
+}
+
+.leadership-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.leadership-name {
+  font-size: 1.2rem;
+  color: var(--tetrary-color);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.leadership-info {
+
+  margin-top: 10px;
+  padding-left: 10px;
+}
 
 
 
